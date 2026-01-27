@@ -1,0 +1,16 @@
+
+# Ignore Data Files
+data/
+*.json
+*.csv
+*.zip
+*.tar.gz
+
+# Ignore Colab/Jupyter junk
+.ipynb_checkpoints
+__pycache__/
+*.pyc
+
+# Ignore large model backups (optional, keep adapter if small)
+results/
+project_backup/
